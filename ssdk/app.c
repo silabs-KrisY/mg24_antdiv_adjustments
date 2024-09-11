@@ -188,7 +188,7 @@ static void helper_apply_antdiv_adjustment(void);
 static void helper_apply_antdiv_adjustment(void) {
 
   sl_rail_util_antenna_mode_t antennaMode;
-  antennaMode = sl_rail_util_ant_div_get_tx_antenna_mode();
+  antennaMode = sl_rail_util_ant_div_get_rx_antenna_mode();
 
   // Only apply adjustments in RX antdiv mode
   if (SL_RAIL_UTIL_ANTENNA_MODE_DIVERSITY == antennaMode) {
