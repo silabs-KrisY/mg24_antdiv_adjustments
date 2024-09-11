@@ -23,9 +23,9 @@ To use:
 
 # Supported SDK Versions
 
-The Simplicity SDK version has been tested in Simplicity SDK Suite v2024.06.0.
+The Simplicity SDK version (ssdk/app.c) has been tested in Simplicity SDK Suite v2024.06.0.
 
-The Gecko SDK version (tested in GSDK 4.4.3) will be supplied soon.
+The Gecko SDK version (gsdk/app.c) has been tested in GSDK 4.4.3.
 
 ## Authors
 
